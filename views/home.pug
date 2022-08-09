@@ -1,0 +1,21 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+      include ../static/style.css
+
+block content
+    body
+        section#introsection
+            div#photocontent
+                h1 STEPS AND STYLES 
+                h4 Dance with the passion!
+    
+        section#aboutsection 
+            div.card
+                div #[img(src="../static/sponsor1.jpg", alt="")]
+                div #[img(src="../static/sponsor2.jpg", alt="")]
+                div #[img(src="../static/sponsor3.jpg", alt="")]          

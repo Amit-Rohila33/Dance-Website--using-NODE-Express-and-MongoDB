@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Script&display=swap');
+
+
+/* Reset CSS */
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+/* Navbar CSS */
+#navbar{
+    background-color: rgb(102, 110, 111);
+    padding: 5px 0px;
+    position: sticky;
+    top:0px;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+#navbar li{
+    list-style: none;
+    display: flex;
+}
+
+#navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 12px 18px;
+    font-family: 'Tangerine', cursive;
+
+    font-size: x-large;
+}
+
+#navbar li a:hover{
+    color: black;
+}
+
+
+/* IntroSection CSS */
+
+#introsection{
+    height: 600px;
+    background: center / cover no-repeat url(/static/dance3.jpg);
+    
+}
+
+#photocontent{
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    float: right;
+    padding: 15% 9%;
+    font-size: xx-large;
+    font-family: cursive;
+    text-decoration: underline;
+    
+
+    
+}
+
+#photocontent h4{
+    text-align: center;
+}
+
+
+/* Sponsors Sections CSS */
+
+
+#aboutsection{
+    height: 300px;
+    background-color: white;
+    
+ 
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    background: center / cover no-repeat url(/static/background.jpg);
+    z-index: -1;
+    opacity: 0.9;
+    justify-content: center;
+    align-items: center;
+}
+
+.card div {
+    height : 280px;
+    width: 32%;
+    border:2px solid black;
+    margin: 20px 1%;
+    
+    
+}
+
+.card div img{
+    height : 280px;
+    width: 100%;
+}
+
+
+
+/* Footer section CSS */
+
