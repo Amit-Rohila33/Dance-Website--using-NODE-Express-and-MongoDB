@@ -50,6 +50,6 @@ Note:- shortcut way to install npm modules is "npm i <whatever>"
 4) npm install nodeman --globally (npm i nodeman -g)
 
 // TO RUN THE SERVER
-5) nodemn ./app.js(just tap the tab)
+5) nodemon ./app.js(just tap the tab)
     
     
