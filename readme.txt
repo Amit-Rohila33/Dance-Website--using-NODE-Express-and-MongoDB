@@ -51,5 +51,8 @@ Note:- shortcut way to install npm modules is "npm i <whatever>"
 
 // TO RUN THE SERVER
 5) nodemon ./app.js(just tap the tab)
+<<<<<<< HEAD
+=======
     
+>>>>>>> a9422ee25d770e126135d3af08041824d50c9287
     
